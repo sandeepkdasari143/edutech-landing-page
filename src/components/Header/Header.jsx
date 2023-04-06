@@ -33,9 +33,9 @@ const Header = () => {
 }
 
 const styles = {
-    Header:"h-[10vh] absolute inset-x-0 z-10 px-16 border-b border-[#348f50]",
+    Header:" h-[10vh] absolute inset-x-0 z-10 px-5 md:px-16 border-b border-[#348f50]",
     Logo: "cursor-pointer flex flex-row gap-3",
-    NavBar:"",
+    NavBar:"hidden md:flex transition-all duration-500 ease-in-out",
     NavItem:"",
     CTABtn: "bg-[#348f50] text-[#ffffff] px-5 py-2 rounded-sm",
 }

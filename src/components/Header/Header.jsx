@@ -33,10 +33,10 @@ const Header = () => {
 }
 
 const styles = {
-    Header:" h-[10vh] absolute inset-x-0 z-10 px-5 md:px-16 border-b border-[#348f50]",
-    Logo: "cursor-pointer flex flex-row gap-3",
+    Header:" h-[10vh] absolute inset-x-0 z-10 px-5 md:px-16 transparent backdrop-blur-sm",
+    Logo: "cursor-pointer flex flex-row gap-3 text-white",
     NavBar:"hidden md:flex transition-all duration-500 ease-in-out",
-    NavItem:"",
+    NavItem:"text-[#FBCFE8]",
     CTABtn: "bg-[#348f50] text-[#ffffff] px-5 py-2 rounded-sm",
 }
 

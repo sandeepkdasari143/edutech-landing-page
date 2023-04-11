@@ -40,7 +40,7 @@ const Testimonials = () => {
 
 const styles = {
     testimonialsWrapper:"w-[100%] bg-[#120E43] flex flex-col items-center justify-around gap-28 py-16",
-    testimonialContainer:"relative border border-[#E07C24] rounded-md w-[90%] md:w-[75%] lg:w-[60%] mx-auto flex items-center gap-3",
+    testimonialContainer:"rounded-md w-[90%] md:w-[75%] lg:w-[60%] mx-auto flex items-center gap-3",
     arrow: 'transition-all duration-700 linear border bg-[#E07C24] hover:bg-[#E07C24] text-[#120E43]',
 }
 export default Testimonials

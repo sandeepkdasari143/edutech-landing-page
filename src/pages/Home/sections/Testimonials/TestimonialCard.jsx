@@ -20,7 +20,7 @@ const TestimonialCard = ({testimonial}) => {
             </div>
 
             <div className='absolute bg-white inset-x-[-2px] inset-y-[-2px] -z-10 bg-gradient-to-tr from-[#89ff00] via-[#060c21] to-[#00bcd4] rounded-lg'></div>
-            <div className='absolute bg-white inset-x-[-2px] inset-y-[-2px] -z-10 bg-gradient-to-tr from-[#89ff00] via-[#060c21] to-[#00bcd4] rounded-lg'></div>
+            <div className='absolute bg-white inset-x-[-2px] inset-y-[-2px] -z-[999] blur-[40px] bg-gradient-to-tr from-[#89ff00] via-[#060c21] to-[#00bcd4] rounded-lg'></div>
         </div>
 
     )

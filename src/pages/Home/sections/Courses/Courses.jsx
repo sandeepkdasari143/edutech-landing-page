@@ -1,5 +1,6 @@
 import React from 'react'
 import Stack from '@mui/material/Stack';
+import CourseCard from './CourseCard';
 
 const Courses = () => {
     return (
@@ -10,14 +11,17 @@ const Courses = () => {
             </Stack>
 
             <div className={styles.coursesContainer}>
-                
+                <CourseCard />
+                <CourseCard />
+                <CourseCard />
+                <CourseCard />
             </div>
         </Stack>
     )
 }
 
 const styles ={
-    coursesWrapper: "h-[100vh] bg-[#120E43] gap-28 py-16 items-center justify-center",
-    coursesContainer: "",
+    coursesWrapper: "bg-[#120E43] gap-28 py-16 items-center justify-center",
+    coursesContainer: "w-[90%] mx-auto flex flex-wrap gap-5",
 }
 export default Courses

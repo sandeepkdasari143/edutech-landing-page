@@ -19,7 +19,7 @@ const Testimonials = () => {
 
             <div className={styles.testimonialContainer}>
 
-                <div className='relative border border-[#E07C24] rounded-md flex items-center'>
+                <div className='relative group border border-[#E07C24] rounded-md flex items-center'>
                     <div className='absolute -left-[17px] md:-left-[30px] z-10 border rounded-full border-[#E07C24]'>
                         <IconButton onClick={()=>testimonialIndex>0 && setTestimonialIndex(testimonialIndex-1)}
                         className={styles.arrow}><ArrowLeftIcon className="text-xl md:text-3xl lg:text-4xl"/></IconButton>
@@ -41,6 +41,6 @@ const Testimonials = () => {
 const styles = {
     testimonialsWrapper:"w-[100%] bg-[#CAD5E2] flex flex-col items-center justify-around gap-28 py-16",
     testimonialContainer:"border border-[#E07C24] rounded-md w-[90%] md:w-[75%] lg:w-[60%] mx-auto flex items-center gap-3",
-    arrow: 'transition-all duration-500 linear border bg-[#E07C24] hover:bg-[#E07C24] text-[#120E43]',
+    arrow: 'transition-all duration-700 linear border bg-[#E07C24] hover:bg-[#E07C24] text-[#120E43]',
 }
 export default Testimonials

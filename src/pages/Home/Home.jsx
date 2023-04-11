@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Hero from '../../components/Hero/Hero';
 import Testimonials from './sections/Testimonials/Testimonials';
+import Courses from './sections/Courses/Courses';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <Box>
             <main>
                 <Hero />
+                <Courses />
                 <Testimonials />
             </main>
         </Box>

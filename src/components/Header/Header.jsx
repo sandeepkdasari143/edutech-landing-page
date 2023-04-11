@@ -24,7 +24,7 @@ const Header = () => {
                         <Link className={styles.NavItem} to="/contact">Contact</Link>
                     </Stack>
                     {/* Call to Action Button */}
-                    <button className={styles.CTABtn}>Register</button>
+                    <button className={styles.CTABtn}>Explore Courses</button>
                 </Stack>
             </Box>
 
@@ -33,11 +33,11 @@ const Header = () => {
 }
 
 const styles = {
-    Header:" h-[10vh] absolute inset-x-0 z-10 px-5 md:px-16 transparent backdrop-blur-sm",
-    Logo: "cursor-pointer flex flex-row gap-3 text-white",
+    Header:" h-[10vh] absolute inset-x-0 z-10 px-5 md:px-16 bg-[#CAD5E2]/70 backdrop-blur-sm",
+    Logo: "cursor-pointer flex flex-row gap-3 text-[#120E43] font-bold text-3xl",
     NavBar:"hidden md:flex transition-all duration-500 ease-in-out",
-    NavItem:"text-[#FBCFE8]",
-    CTABtn: "bg-[#348f50] text-[#ffffff] px-5 py-2 rounded-sm",
+    NavItem:"text-[#120E43] font-medium text-lg",
+    CTABtn: "bg-[#E07C24] text-[#ffffff] px-5 py-2 rounded-sm",
 }
 
 export default Header

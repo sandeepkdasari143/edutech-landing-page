@@ -5,6 +5,8 @@ import About from './pages/About/About';
 import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
 import AppLayout from './AppLayout';
+import Courses from './pages/Home/sections/Courses/Courses';
+import CoursePage from './pages/Courses/CoursePage';
 
 const App = () => {
   return (
@@ -16,6 +18,9 @@ const App = () => {
             <Route index element={<Home />}/>
             <Route path="/about" element={<About />}/>
             <Route path="/contact" element={<Contact />}/>
+            <Route path='/courses' element={<Courses />}>
+            </Route>
+            <Route path="/courses/:courseID" element={<CoursePage />}/>
           </Route>
         </Routes>
       </BrowserRouter>
